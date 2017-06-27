@@ -1,5 +1,6 @@
 <link rel="import" href="../lrndesign-animationctrl/lrndesign-animationctrl.html">
 <link rel="import" href="../greensock-cdn/greensock-cdn.html">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 <dom-module id="monohybrid-element-3">
     <template>
@@ -7,11 +8,24 @@
              :host {
                 display: block;
             }
+            h1, h2, h3, h4, h5, h6 {
+        font-family: 'Open Sans', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #6D6E71;
+        text-align: center;
+      }
+
+      p { 
+        font-family: 'Open Sans', sans-serif;
+      }
         </style>
+        
         <lrndesign-animationctrl>
             <lrndesign-animationctrl-button name="play" icon="play"></lrndesign-animationctrl-button>
             <lrndesign-animationctrl-button name="replay" icon="replay"></lrndesign-animationctrl-button>
         </lrndesign-animationctrl>
+        <h1>Punnet Square - Monohybrid</h1>
         <p>To use the punnet square simply add the appropriate alleles (B or b) to the squares. Each combination of alleles within a square represents a possible genotype of an individual offspring. Click on the play button to fill in the punnet square.</p>
         <svg id="squares" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 630.06 261.03">
             <title>monohybrid-1</title>
