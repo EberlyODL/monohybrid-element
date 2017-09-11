@@ -5,6 +5,7 @@
 <link rel="import" href="monohybrid-element-2.html">
 <link rel="import" href="monohybrid-element-3.html">
 <link rel="import" href="monohybrid-element-4.html">
+<link rel="import" href="../animation-shared-styles/animation-shared-styles.html">
 
 <!--
 `monohybrid-element`
@@ -15,7 +16,7 @@
 
 <dom-module id="monohybrid-element">
   <template>
-    <style>
+    <style is="custom-style" include="animation-shared-styles">
       :host {
         display: block;
       }
